@@ -1,3 +1,6 @@
 {
-	"item-lamewand": "Wand"
+	"item-lamewand": "Wand",
+	"item-vegetableoilportion": "Vegetable Oil",
+	"incontainer-item-vegetableoilportion": "Vegetable Oil",
+	"item-pressedmash-vegetable-dry": "Vegetable Mash"
 }

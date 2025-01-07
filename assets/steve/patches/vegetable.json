@@ -1,0 +1,24 @@
+[
+	{
+		"file": "game:itemtypes/food/vegetable",
+		"op": "addmerge",
+		"path": "/attributes",
+		"value": {
+			"juiceablePropertiesByType": {
+				"*-carrot": {
+					"litresPerItem": 0.1,
+					"liquidStack": {
+						"type": "item",
+						"code": "steve:vegetableoilportion",
+						"stacksize": 1
+					},
+					"pressedStack": {
+						"type": "item",
+						"code": "steve:pressedmash-vegetable",
+						"stacksize": 1
+					}
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"ingredientPattern": "B",
+	"ingredients": {
+		"B": {
+			"type": "block",
+			"code": "game:bowl-fired",
+			"recipeAttributes": {
+				"liquidContainerProps": {
+					"requiresContent": {
+						"type": "item",
+						"code": "steve:vegetableoilportion"
+					},
+					"requiresLitres": 1
+				}
+			},
+			"returnedStack": { "type": "block", "code": "game:air" }
+		}
+	},
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "block", "code": "game:oillamp-up" }
+}

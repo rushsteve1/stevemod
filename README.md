@@ -2,7 +2,9 @@
 
 This is a mod for [Vintage Story](https://vintagestory.at) that focuses
 on being a collection of tweaks and feature additions to improve the game.
-Most of these are small QoL changes.
+
+Most of these are small QoL changes with an emphasis on taking advantage of
+existing game elements and resources.
 
 ## License
 
@@ -24,6 +26,8 @@ But acts as a good "hello world".
 Adds and new recipe for crafting sticks from firewood using a similar recipe
 to firewood from logs. This makes getting sticks easier, especially at higher
 quantities, while still requiring some work and two ticks of axe durability.
+<<<<<<< Conflict 1 of 1
++++++++ Contents of side #1
 
 ### Vegetable Oil
 
@@ -31,7 +35,7 @@ A new liquid! Provides an alternative to animal fat for the more pacifist
 players or those who struggle finding enough.
 
 Vegetable Oil is more easily renewable, but slower due to farming
-and requires the Fruitpress to create.
+and requires the Fruitpress and a barrel to create.
 
 ### Craftable Omok Pieces
 
