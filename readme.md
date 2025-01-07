@@ -18,3 +18,9 @@ developers to freely use this code in their own creations.
 
 This is a basic wand from the example code. It does nothing.
 But acts as a good "hello world".
+
+### Sticks from Firewood
+
+Adds and new recipe for crafting sticks from firewood using a similar recipe
+to firewood from logs. This makes getting sticks easier, especially at higher
+quantities, while still requiring some work and two ticks of axe durability.
