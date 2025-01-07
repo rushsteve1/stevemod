@@ -1,0 +1,8 @@
+{
+	"type": "content",
+	"modid": "oldsteve",
+	"name": "Old Steve's Mod",
+	"authors": ["rushsteve1"],
+	"description": "A collection of tweaks and modifications to enhance the game",
+	"version": "0.1.0"
+}
