@@ -1,0 +1,24 @@
+[
+	{
+		"ingredientPattern": "C,L",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"L": { "type": "item", "code": "game:ingot-lead" }
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:omokpiece-lead", "quantity": 32 }
+	},
+	{
+		"ingredientPattern": "C,G",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"G": { "type": "item", "code": "game:ingot-gold" }
+		},
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:omokpiece-gold", "quantity": 32 }
+	}
+]

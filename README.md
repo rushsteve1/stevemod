@@ -24,3 +24,16 @@ But acts as a good "hello world".
 Adds and new recipe for crafting sticks from firewood using a similar recipe
 to firewood from logs. This makes getting sticks easier, especially at higher
 quantities, while still requiring some work and two ticks of axe durability.
+
+### Vegetable Oil
+
+A new liquid! Provides an alternative to animal fat for the more pacifist
+players or those who struggle finding enough.
+
+Vegetable Oil is more easily renewable, but slower due to farming
+and requires the Fruitpress to create.
+
+### Craftable Omok Pieces
+
+They're tiny bits of Lead and Gold, I'm not sure why these aren't craftable.
+I may add the other metals at some point too.
