@@ -1,10 +1,13 @@
-# Old Steve's Mod
+# Steve's Mod
 
 This is a mod for [Vintage Story](https://vintagestory.at) that focuses
 on being a collection of tweaks and feature additions to improve the game.
 
 Most of these are small QoL changes with an emphasis on taking advantage of
 existing game elements and resources.
+
+However I want to emphasize that I am **NOT** trying to make the game easier.
+Just to present alternatives and new features that fit in cleanly.
 
 ## License
 
@@ -18,8 +21,8 @@ developers to freely use this code in their own creations.
 
 ### Wand
 
-This is a basic wand from the example code. It does nothing.
-But acts as a good "hello world".
+This is a basic wand from the example code.
+It does nothing, but acts as a good "hello world".
 
 ### Sticks from Firewood
 
@@ -28,6 +31,9 @@ to firewood from logs. This makes getting sticks easier, especially at higher
 quantities, while still requiring some work and two ticks of axe durability.
 <<<<<<< Conflict 1 of 1
 +++++++ Contents of side #1
+
+This felt necessary to me and is why I started learning VS Modding.
+Getting the quantity of sticks you need in the mid-game is a *pain*.
 
 ### Vegetable Oil
 
@@ -39,5 +45,4 @@ and requires the Fruitpress and a barrel to create.
 
 ### Craftable Omok Pieces
 
-They're tiny bits of Lead and Gold, I'm not sure why these aren't craftable.
-I may add the other metals at some point too.
+In a variety of metals! Having game boards in VS is brilliant!

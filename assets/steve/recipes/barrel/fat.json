@@ -1,0 +1,15 @@
+{
+	"code": "vegetableoil-fat",
+	"sealHours": 16,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "steve:vegetableoilportion",
+			"litres": 2
+		}
+	],
+	"output": {
+		"type": "item",
+		"code": "game:fat"
+	}
+}

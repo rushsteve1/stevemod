@@ -1,6 +1,16 @@
 {
-	"item-lamewand": "Wand",
-	"item-vegetableoilportion": "Vegetable Oil",
-	"incontainer-item-vegetableoilportion": "Vegetable Oil",
-	"item-pressedmash-vegetable-dry": "Vegetable Mash"
+	"steve:item-lamewand": "Wand",
+	"steve:item-vegetableoilportion": "Vegetable Oil",
+	"steve:incontainer-item-vegetableoilportion": "Vegetable Oil",
+	"steve:item-pressedmash-vegetable-dry": "Vegetable Mash",
+
+	"game:item-omokpiece-copper": "Omok piece (Copper)",
+	"game:item-omokpiece-brass": "Omok piece (Brass)",
+	"game:item-omokpiece-tinbronze": "Omok piece (Tin Bronze)",
+	"game:item-omokpiece-blackbronze": "Omok piece (Black Bronze)",
+	"game:item-omokpiece-iron": "Omok piece (Iron)",
+	"game:item-omokpiece-nickel": "Omok piece (Nickel)",
+	"game:item-omokpiece-tin": "Omok piece (Tin)",
+	"game:item-omokpiece-platinum": "Omok piece (Platinum)",
+	"game:item-omokpiece-silver": "Omok piece (Silver)"
 }

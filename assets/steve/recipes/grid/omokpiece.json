@@ -1,0 +1,27 @@
+{
+	"ingredientPattern": "C,L",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+		"L": {
+			"type": "item",
+			"name": "metal",
+			"code": "game:metalbit-*",
+			"allowedVariants": [
+				"lead",
+				"gold",
+				"copper",
+				"brass",
+				"tinbronze",
+				"blackbronze",
+				"iron",
+				"nickel",
+				"tin",
+				"platinum",
+				"silver"
+			]
+		}
+	},
+	"output": { "type": "item", "code": "game:omokpiece-{metal}", "quantity": 2 }
+}

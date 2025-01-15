@@ -21,4 +21,9 @@ The official assets are a great reference!
 
 - Auto panning/sluice
 	- Useful Items has this, how did they implement it?
-- Omok pieces of all metals
+
+# Todo
+- Fix Vegetable pressing
+	- https://github.com/anegostudios/vssurvivalmod/blob/master/BlockEntity/BEFruitpress.cs#L492
+	- https://github.com/anegostudios/vssurvivalmod/blob/master/BlockEntity/BEFruitpress.cs#L725
+	- https://github.com/anegostudios/vssurvivalmod/blob/master/BlockEntity/BEFruitpress.cs#L15

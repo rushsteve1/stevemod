@@ -1,0 +1,25 @@
+[
+	{
+		"file": "game:itemtypes/omokpiece",
+		"op": "replace",
+		"path": "/variantgroups",
+		"value": [
+			{
+				"code": "material",
+				"states": [
+					"lead",
+					"gold",
+					"copper",
+					"brass",
+					"tinbronze",
+					"blackbronze",
+					"iron",
+					"nickel",
+					"tin",
+					"platinum",
+					"silver"
+				]
+			}
+		]
+	}
+]
