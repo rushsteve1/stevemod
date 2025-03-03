@@ -2,21 +2,19 @@
 	{
 		"file": "game:itemtypes/food/vegetable",
 		"op": "addmerge",
-		"path": "/attributesByType",
+		"path": "/attributes",
 		"value": {
-			"*": {
-				"juiceableProperties": {
-					"litresPerItem": 0.2,
-					"liquidStack": {
-						"type": "item",
-						"code": "steve:vegetableoilportion",
-						"stacksize": 1
-					},
-					"pressedStack": {
-						"type": "item",
-						"code": "steve:pressedmash-vegetable",
-						"stacksize": 1
-					}
+			"juiceableProperties": {
+				"litresPerItem": 0.3125,
+				"liquidStack": {
+					"type": "item",
+					"code": "steve:vegetableoilportion",
+					"stacksize": 1
+				},
+				"pressedStack": {
+					"type": "item",
+					"code": "steve:pressedmash-vegetable",
+					"stacksize": 1
 				}
 			}
 		}

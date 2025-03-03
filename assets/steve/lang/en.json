@@ -1,8 +1,9 @@
 {
 	"steve:item-lamewand": "Wand",
-	"steve:item-vegetableoilportion": "Vegetable Oil",
-	"steve:incontainer-item-vegetableoilportion": "Vegetable Oil",
-	"steve:item-pressedmash-vegetable-dry": "Vegetable Mash",
+	"steve:item-vegetableoilportion": "Vegetable oil",
+	"steve:incontainer-item-vegetableoilportion": "Vegetable oil",
+	"steve:item-pressedmash-vegetable-wet": "Wet vegetable mash",
+	"steve:item-pressedmash-vegetable-dry": "Dry vegetable mash",
 
 	"game:item-omokpiece-copper": "Omok piece (Copper)",
 	"game:item-omokpiece-brass": "Omok piece (Brass)",
