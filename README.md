@@ -9,6 +9,8 @@ existing game elements and resources.
 However I want to emphasize that I am **NOT** trying to make the game easier.
 Just to present alternatives and new features that fit in cleanly.
 
+Most of the ideas here have been done better by other mods.
+
 ## License
 
 The code in this repository (except where otherwise specified)
@@ -19,21 +21,14 @@ developers to freely use this code in their own creations.
 
 ## Additions and Changes
 
-### Wand
-
-This is a basic wand from the example code.
-It does nothing, but acts as a good "hello world".
-
 ### Sticks from Firewood
 
 Adds and new recipe for crafting sticks from firewood using a similar recipe
 to firewood from logs. This makes getting sticks easier, especially at higher
 quantities, while still requiring some work and two ticks of axe durability.
-<<<<<<< Conflict 1 of 1
-+++++++ Contents of side #1
 
 This felt necessary to me and is why I started learning VS Modding.
-Getting the quantity of sticks you need in the mid-game is a *pain*.
+Getting the quantity of sticks you need in the mid-game is a _pain_.
 
 ### Vegetable Oil
 
@@ -46,3 +41,7 @@ and requires the Fruitpress and a barrel to create.
 ### Craftable Omok Pieces
 
 In a variety of metals! Having game boards in VS is brilliant!
+
+### Two Knife Smithing
+
+A recipe for smithing two knives at once.

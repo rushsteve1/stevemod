@@ -1,9 +1,0 @@
-{
-	"ingredientPattern": "S,S",
-	"width": 1,
-	"height": 2,
-	"ingredients": {
-		"S": { "type": "item", "code": "game:stick" }
-	},
-	"output": { "type": "item", "code": "lamewand" }
-}
