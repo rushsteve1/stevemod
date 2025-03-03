@@ -1,0 +1,33 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [
+			"copper",
+			"tinbronze",
+			"bismuthbronze",
+			"blackbronze",
+			"silver",
+			"gold",
+			"iron",
+			"meteoriciron",
+			"steel"
+		]
+	},
+	"pattern": [
+		[
+			"_###########____",
+			"______######____",
+			"________________",
+			"____######______",
+			"____###########_"
+		]
+	],
+	"name": "2 Knives",
+	"output": {
+		"type": "item",
+		"code": "game:knifeblade-{metal}",
+		"stacksize": 2
+	}
+}
