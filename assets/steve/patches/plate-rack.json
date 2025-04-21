@@ -1,8 +1,8 @@
 [
 	{
-		"op": "addmerge",
 		"path": "/attributes",
 		"file": "game:itemtypes/resource/metalplate.json",
+		"op": "addmerge",
 		"value": {
 			"moldrackable": true,
 			"onmoldrackTransform": {

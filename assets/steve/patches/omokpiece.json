@@ -1,6 +1,7 @@
 [
 	{
 		"file": "game:itemtypes/omokpiece",
+		"side": "Server",
 		"op": "replace",
 		"path": "/variantgroups",
 		"value": [

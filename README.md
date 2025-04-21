@@ -50,3 +50,16 @@ More efficient than smithing one at a time.
 ### Metal Plates on Vertical Rack
 
 Allows metal plates to be stored on a vertical rack.
+
+### Iron and up Spears
+
+Iron, Meteoric Iron, and Steel spears.
+Not sure why these aren't in the game, especially with the addition of Elks
+making Spears much more useful in the late game.
+I tried to match the existing damage curves.
+
+### Smeltable Arrowheads
+
+Arrowheads can now be smelted counting as one bit.
+This smooths out the early game panning grind, and is nice for decrafting
+arrowheads found in ruins.
