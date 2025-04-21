@@ -3,8 +3,8 @@
 	"width": 1,
 	"height": 2,
 	"ingredients": {
-		"A": { "type": "item", "code": "game:axe-*", "isTool": true },
-		"F": { "type": "item", "code": "game:firewood" }
+		"A": { "type": "item", "code": "axe-*", "isTool": true },
+		"F": { "type": "item", "code": "firewood" }
 	},
-	"output": { "type": "item", "code": "game:stick", "quantity": 2 }
+	"output": { "type": "item", "code": "stick", "quantity": 2 }
 }

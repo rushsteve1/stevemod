@@ -4,12 +4,12 @@
 	"ingredients": [
 		{
 			"type": "item",
-			"code": "steve:vegetableoilportion",
+			"code": "vegetableoilportion",
 			"litres": 5
 		}
 	],
 	"output": {
 		"type": "item",
-		"code": "game:fat"
+		"code": "fat"
 	}
 }

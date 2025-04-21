@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/moldrackable",
+    "value": true,
+    "file": "game:itemtypes/resource/metalplate.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onmoldrackTransform",
+    "value": {
+      "translation": {
+        "x": -0.315
+      },
+      "rotation": {
+        "z": 90
+      },
+      "scale": 1.6
+    },
+    "file": "game:itemtypes/resource/metalplate.json",
+    "side": "Server"
+  }
+]

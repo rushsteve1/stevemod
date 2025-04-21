@@ -1,7 +1,7 @@
 {
 	"ingredient": {
 		"type": "item",
-		"code": "game:ingot-*",
+		"code": "ingot-*",
 		"name": "metal",
 		"allowedVariants": [
 			"copper",
@@ -27,7 +27,7 @@
 	"name": "2 Knives",
 	"output": {
 		"type": "item",
-		"code": "game:knifeblade-{metal}",
+		"code": "knifeblade-{metal}",
 		"stacksize": 2
 	}
 }

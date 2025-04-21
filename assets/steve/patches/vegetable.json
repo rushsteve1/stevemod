@@ -1,46 +1,21 @@
 [
-	{
-		"op": "addmerge",
-		"path": "/attributes",
-		"value": {
-			"juiceableProperties": {
-				"litresPerItem": 0.3125,
-				"liquidStack": {
-					"type": "item",
-					"code": "steve:vegetableoilportion",
-					"stacksize": 1
-				},
-				"pressedStack": {
-					"type": "item",
-					"code": "steve:pressedmash-vegetable",
-					"stacksize": 1
-				}
-			}
-		},
-		"file": "game:itemtypes/food/vegetable",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/attributes/contentConfig/-",
-		"value": {
-			"code": "vegetablemash",
-			"content": { "type": "item", "code": "steve:pressedmash-vegetable" },
-			"quantityPerFillLevel": 2,
-			"maxFillLevels": 8,
-			"shapesPerFillLevel": [
-				"game:block/wood/trough/large/grainfill1",
-				"game:block/wood/trough/large/grainfill1",
-				"game:block/wood/trough/large/grainfill2",
-				"game:block/wood/trough/large/grainfill2",
-				"game:block/wood/trough/large/grainfill3",
-				"game:block/wood/trough/large/grainfill3",
-				"game:block/wood/trough/large/grainfill4",
-				"game:block/wood/trough/large/grainfill4"
-			],
-			"textureCode": "game:block/food/pie/fill-olive"
-		},
-		"file": "game:blocktypes/wood/trough-large",
-		"side": "Server"
-	}
+  {
+    "op": "add",
+    "path": "/attributesByType/*/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": {
+        "type": "item",
+        "code": "vegetableoilportion",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "pressedmash-vegetable",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server"
+  }
 ]

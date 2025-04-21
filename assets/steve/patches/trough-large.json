@@ -1,0 +1,39 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/19",
+    "value": {
+      "code": "vegetablemash",
+      "content": {
+        "type": "item",
+        "code": "pressedmash-vegetable"
+      },
+      "quantityPerFillLevel": 2,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/large/grainfill1",
+        "block/wood/trough/large/grainfill1",
+        "block/wood/trough/large/grainfill2",
+        "block/wood/trough/large/grainfill2",
+        "block/wood/trough/large/grainfill3",
+        "block/wood/trough/large/grainfill3",
+        "block/wood/trough/large/grainfill4",
+        "block/wood/trough/large/grainfill4"
+      ]
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/textures/contents-pressedmash-vegetable",
+    "value": {
+      "base": "block/food/pie/fill-olive",
+      "overlays": [
+        "block/wood/trough/large/shadow"
+      ]
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "Server"
+  }
+]

@@ -1,26 +1,34 @@
 [
-	{
-		"file": "game:itemtypes/omokpiece",
-		"side": "Server",
-		"op": "replace",
-		"path": "/variantgroups",
-		"value": [
-			{
-				"code": "material",
-				"states": [
-					"lead",
-					"gold",
-					"copper",
-					"brass",
-					"tinbronze",
-					"blackbronze",
-					"iron",
-					"nickel",
-					"tin",
-					"platinum",
-					"silver"
-				]
-			}
-		]
-	}
+  {
+    "op": "replace",
+    "path": "/textures/material/base",
+    "value": "block/metal/ingot/{metal}",
+    "file": "game:itemtypes/omokpiece.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/loadFromProperties",
+    "value": "block/metal",
+    "file": "game:itemtypes/omokpiece.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/code",
+    "value": "metal",
+    "file": "game:itemtypes/omokpiece.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "blistersteel",
+      "leadsolder",
+      "silversolder"
+    ],
+    "file": "game:itemtypes/omokpiece.json",
+    "side": "Server"
+  }
 ]

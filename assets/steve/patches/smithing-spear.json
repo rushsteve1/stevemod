@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/4",
+    "value": "iron",
+    "file": "game:recipes/smithing/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/5",
+    "value": "meteoriciron",
+    "file": "game:recipes/smithing/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/6",
+    "value": "steel",
+    "file": "game:recipes/smithing/spear.json",
+    "side": "Server"
+  }
+]

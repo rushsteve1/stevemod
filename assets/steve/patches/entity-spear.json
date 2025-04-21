@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/client/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:entities/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1/states/12",
+    "value": "iron",
+    "file": "game:entities/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1/states/13",
+    "value": "meteoriciron",
+    "file": "game:entities/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1/states/14",
+    "value": "steel",
+    "file": "game:entities/spear.json",
+    "side": "Server"
+  }
+]

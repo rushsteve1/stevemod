@@ -9,11 +9,11 @@
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
-			"texture": { "base": "game:block/liquid/beer" },
+			"texture": { "base": "block/liquid/beer" },
 			"allowSpill": true,
 			"whenSpilled": {
 				"action": "DropContents",
-				"stack": { "type": "item", "code": "steve:vegetableoilportion" }
+				"stack": { "type": "item", "code": "vegetableoilportion" }
 			},
 			"nutritionPropsPerLitre": {
 				"satiety": 50,
@@ -21,20 +21,20 @@
 			}
 		}
 	},
-	"shape": { "base": "game:item/liquid" },
-	"texture": { "base": "game:block/liquid/beer" },
+	"shape": { "base": "item/liquid" },
+	"texture": { "base": "block/liquid/beer" },
 	"creativeinventoryStacks": [
 		{
 			"tabs": ["general", "liquids"],
 			"stacks": [
 				{
 					"type": "block",
-					"code": "game:woodbucket",
+					"code": "woodbucket",
 					"attributes": {
 						"ucontents": [
 							{
 								"type": "item",
-								"code": "steve:vegetableoilportion",
+								"code": "vegetableoilportion",
 								"makefull": true
 							}
 						]

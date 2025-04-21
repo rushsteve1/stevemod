@@ -7,19 +7,19 @@
 		"juiceableProperties": {
 			"liquidStack": {
 				"type": "item",
-				"code": "steve:vegetableoilportion",
+				"code": "vegetableoilportion",
 				"stacksize": 1
 			},
 			"pressedStack": {
 				"type": "item",
-				"code": "steve:pressedmash-vegetable",
+				"code": "pressedmash-vegetable",
 				"stacksize": 1
 			}
 		}
 	},
-	"shape": { "base": "game:item/pressedmash" },
+	"shape": { "base": "item/pressedmash" },
 	"textures": {
-		"material": { "base": "game:block/food/pie/fill-olive" }
+		"material": { "base": "block/food/pie/fill-olive" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"transitionableProps": [
@@ -27,7 +27,7 @@
 			"type": "Perish",
 			"freshHours": { "avg": 36 },
 			"transitionHours": { "avg": 12 },
-			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionedStack": { "type": "item", "code": "rot" },
 			"transitionRatio": 1
 		}
 	],
