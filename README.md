@@ -38,6 +38,8 @@ players or those who struggle finding enough.
 Vegetable Oil is more easily renewable, but slower due to farming
 and requires the Fruitpress and a barrel to create.
 
+The waste vegetable mash can be put in troughs to feed animals.
+
 ### Craftable Omok Pieces
 
 In a variety of metals! Having game boards in VS is brilliant!
@@ -50,6 +52,7 @@ More efficient than smithing one at a time.
 ### Metal Plates on Vertical Rack
 
 Allows metal plates to be stored on a vertical rack.
+Another thing I was surprised wasn't in vanilla.
 
 ### Iron and up Spears
 

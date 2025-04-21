@@ -100,7 +100,7 @@
 		"op": "addmerge",
 		"path": "/shapeByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
 		"value": {
-			"base": "item/tool/spear/copper"
+			"base": "game:item/tool/spear/copper"
 		},
 		"file": "game:itemtypes/tool/spear.json",
 		"side": "Server"
@@ -116,7 +116,7 @@
 		"path": "/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
 		"value": {
 			"material": {
-				"base": "block/metal/ingot/{material}"
+				"base": "game:block/metal/ingot/{material}"
 			}
 		},
 		"file": "game:itemtypes/tool/spear.json",
