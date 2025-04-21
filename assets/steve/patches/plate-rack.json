@@ -1,0 +1,15 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/attributes",
+		"file": "game:itemtypes/resource/metalplate.json",
+		"value": {
+			"moldrackable": true,
+			"onmoldrackTransform": {
+				"translation": { "x": -0.315 },
+				"rotation": { "z": 90 },
+				"scale": 1.6
+			}
+		}
+	}
+]

@@ -45,3 +45,8 @@ In a variety of metals! Having game boards in VS is brilliant!
 ### Two Knife Smithing
 
 A recipe for smithing two knives at once.
+More efficient than smithing one at a time.
+
+### Metal Plates on Vertical Rack
+
+Allows metal plates to be stored on a vertical rack.
