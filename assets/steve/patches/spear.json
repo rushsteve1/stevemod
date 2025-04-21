@@ -1,132 +1,93 @@
 [
 	{
-		"op": "addmerge",
+		"op": "add",
 		"path": "/variantgroups/1/states",
 		"value": ["iron", "meteoriciron", "steel"],
-		"file": "game:itemtypes/tool/spear.json",
+		"file": "game:itemtypes/tool/spear",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/variantgroups/0/states",
+		"value": ["iron", "meteoriciron", "steel"],
+		"file": "game:entities/spear",
 		"side": "Server"
 	},
 	{
 		"op": "addmerge",
-		"path": "/attackpowerbytype/spear-generic-iron",
-		"value": 4.5,
-		"file": "game:itemtypes/tool/spear.json",
+		"path": "/attackpowerbytype",
+		"value": {
+			"spear-generic-iron": 4.5,
+			"spear-generic-meteoriciron": 4.75,
+			"spear-generic-steel": 5.0
+		},
+		"file": "game:itemtypes/tool/spear",
 		"side": "Server"
 	},
 	{
 		"op": "addmerge",
-		"path": "/attackpowerbytype/spear-generic-meteoriciron",
-		"value": 4.75,
-		"file": "game:itemtypes/tool/spear.json",
+		"path": "/attributes/damageByType",
+		"value": {
+			"spear-generic-iron": 8.5,
+			"spear-generic-meteoriciron": 8.5,
+			"spear-generic-steel": 9.0
+		},
+		"file": "game:itemtypes/tool/spear",
 		"side": "Server"
 	},
 	{
 		"op": "addmerge",
-		"path": "/attackpowerbytype/spear-generic-steel",
-		"value": 5.0,
-		"file": "game:itemtypes/tool/spear.json",
+		"path": "/attributes/damageTierByType",
+		"value": {
+			"spear-generic-iron": 0,
+			"spear-generic-meteoriciron": 0,
+			"spear-generic-steel": 0
+		},
+		"file": "game:itemtypes/tool/spear",
 		"side": "Server"
 	},
 	{
 		"op": "addmerge",
-		"path": "/attributes/damageByType/*-iron",
-		"value": 8.5,
-		"file": "game:itemtypes/tool/spear.json",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": {
+			"@spear-generic-(iron|meteoriciron|steel)": {
+				"translation": { "x": -0.39, "y": 0.78, "z": 0.235 },
+				"rotation": { "x": 16, "y": 1, "z": 90 },
+				"scale": 0.85
+			}
+		},
+		"file": "game:itemtypes/tool/spear",
 		"side": "Server"
 	},
 	{
 		"op": "addmerge",
-		"path": "/attributes/damageByType/*-meteoriciron",
-		"value": 8.5,
-		"file": "game:itemtypes/tool/spear.json",
+		"path": "/durabilitybytype",
+		"value": {
+			"spear-generic-iron": 350,
+			"spear-generic-meteoriciron": 400,
+			"spear-generic-steel": 450
+		},
+		"file": "game:itemtypes/tool/spear",
 		"side": "Server"
 	},
 	{
 		"op": "addmerge",
-		"path": "/attributes/damageByType/*-steel",
-		"value": 9.0,
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/attributes/damageTierByType/*-iron",
-		"value": 0,
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/attributes/damageTierByType/*-meteoriciron",
-		"value": 0,
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/attributes/damageTierByType/*-steel",
-		"value": 0,
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/durabilitybytype/spear-generic-iron",
-		"value": 350,
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/durabilitybytype/spear-generic-meteoriciron",
-		"value": 400,
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/durabilitybytype/spear-generic-steel",
-		"value": 450,
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "remove",
-		"path": "/shapeByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze)",
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/shapeByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+		"path": "/shapeByType/@spear-generic-(iron|meteoriciron|steel)",
 		"value": {
 			"base": "game:item/tool/spear/copper"
 		},
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "remove",
-		"path": "/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze)",
-		"file": "game:itemtypes/tool/spear.json",
+		"file": "game:itemtypes/tool/spear",
 		"side": "Server"
 	},
 	{
 		"op": "addmerge",
-		"path": "/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+		"path": "/texturesByType/@spear-generic-(iron|meteoriciron|steel)",
 		"value": {
 			"material": {
 				"base": "game:block/metal/ingot/{material}"
 			}
 		},
-		"file": "game:itemtypes/tool/spear.json",
-		"side": "Server"
-	},
-	{
-		"op": "addmerge",
-		"path": "/variantgroups/1/states",
-		"value": ["iron", "meteoriciron", "steel"],
-		"file": "game:entities/spear.json",
+		"file": "game:itemtypes/tool/spear",
 		"side": "Server"
 	}
 ]

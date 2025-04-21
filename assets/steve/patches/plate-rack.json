@@ -1,8 +1,7 @@
 [
 	{
-		"path": "/attributes",
-		"file": "game:itemtypes/resource/metalplate.json",
 		"op": "addmerge",
+		"path": "/attributes",
 		"value": {
 			"moldrackable": true,
 			"onmoldrackTransform": {
@@ -10,6 +9,8 @@
 				"rotation": { "z": 90 },
 				"scale": 1.6
 			}
-		}
+		},
+		"file": "game:itemtypes/resource/metalplate",
+		"side": "Server"
 	}
 ]

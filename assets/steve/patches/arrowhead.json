@@ -1,8 +1,8 @@
 [
 	{
-		"file": "game:itemtypes/toolhead/arrowhead.json",
+		"file": "game:itemtypes/toolhead/arrowhead",
 		"side": "Server",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/combustiblePropsByType",
 		"value": {
 			"*-copper": {
